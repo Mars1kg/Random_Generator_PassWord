@@ -7,6 +7,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();
 
+        System.out.println("Check the project");
         input.close();
     }
 

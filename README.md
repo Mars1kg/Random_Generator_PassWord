@@ -10,8 +10,9 @@ Generate and print a random password.
 Ensure the password meets the chosen criteria (length, character types).
 Display password strength based on industry standards (e.g.,zxcvbn score).
 
-Submission
-
-Java source code with comments and documentation.
-Example output and screenshots.
-A short report describing the project, design choices, and challenges encountered.
+ПРОБЛЕМЫ И ТРУДНОСТИ:
+В процессе написании кода после input.nextInt() оставался как я понял символ перевода строки,
+Из-за этого программа не давала пользователю ввести нужные символы. Долго не мог понять, с чем это может быть связано, и в интернете нашел статью на эту тему:
+(https://sky.pro/media/problema-propuska-metoda-nextline-posle-ispolzovaniya-next-ili-nextfoo-v-java/) 
+После input.nextInt(), всегда нужно добавлять input.nextLine();, чтобы убрать лишний Enter. 
+На данный момент есть проблемы с реализацией той части программы, которая отвечает за отбор нужных символов, цифр, строчных и заглавных букв именно в рандомном порядке, учитывая длину пароля введенного пользователем. (18.02.25)

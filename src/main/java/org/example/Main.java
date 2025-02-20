@@ -48,6 +48,36 @@ public class Main {
         input.close ();
 
         String chars = UpperCase + LowerCase + numBer + symBol;
+
+        Random rand = new Random();
+        StringBuilder password = new StringBuilder();
+
+        int added = 0;
+        if (!UpperCase.isEmpty()) {
+            int index = rand.nextInt(UpperCase.length());
+            char ch = UpperCase.charAt(index);
+            password.append(ch);
+            added++;
+        }
+        if (!LowerCase.isEmpty()) {
+            int index = rand.nextInt(LowerCase.length());
+            char ch = LowerCase.charAt(index);
+            password.append(ch);
+            added++;
+        }
+        if (!numBer.isEmpty()){
+            int index = rand.nextInt(numBer.length());
+            char ch = numBer.charAt(index);
+            password.append(ch);
+            added++;
+        }
+        if (!symBol.isEmpty()){
+            int index = rand.nextInt(symBol.length());
+            char ch = symBol.charAt(index);
+            password.append(ch);
+            added++;
+        }
+
     }
 
 }

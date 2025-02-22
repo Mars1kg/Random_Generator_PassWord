@@ -91,6 +91,13 @@ public class Main {
         System.out.print("Your password is: ");
         System.out.println(password.toString());
 
+        if (length <= 4) {
+            System.out.println("Password is weak");
+        } else if (length <= 7) {
+            System.out.println("Password is normal");
+        } else {
+            System.out.println("Password is strong");
+        }
 
     }
 

@@ -25,8 +25,8 @@ Display password strength based on industry standards (e.g.,zxcvbn score).
 порядке, учитывая длину пароля введенного пользователем. (18.02.25)
 
 СКРИНШОТЫ ПРОЕКТА: 
-![1](https://github.com/Mars1kg/Random_Generator_PassWord/blob/master/Снимок%20экрана%20(134).png)
-![2](https://github.com/Mars1kg/Random_Generator_PassWord/blob/master/Снимок%20экрана%20(135).png)
-![3](https://github.com/Mars1kg/Random_Generator_PassWord/blob/master/Снимок%20экрана%20(136).png)
-![4](https://github.com/Mars1kg/Random_Generator_PassWord/blob/master/Снимок%20экрана%20(137).png)
-![5](https://github.com/Mars1kg/Random_Generator_PassWord/blob/master/Снимок%20экрана%20(133).png)
+![1](https://github.com/Mars1kg/Random_Generator_PassWord/blob/master/1.png)
+![2](https://github.com/Mars1kg/Random_Generator_PassWord/blob/master/2.png)
+![3](https://github.com/Mars1kg/Random_Generator_PassWord/blob/master/3.png)
+![4](https://github.com/Mars1kg/Random_Generator_PassWord/blob/master/4.png)
+![5](https://github.com/Mars1kg/Random_Generator_PassWord/blob/master/5.png)

@@ -23,3 +23,10 @@ Display password strength based on industry standards (e.g.,zxcvbn score).
 На данный момент есть проблемы с реализацией той части программы, которая отвечает за отбор нужных символов, цифр, строчных и заглавных букв именно в рандомном 
 
 порядке, учитывая длину пароля введенного пользователем. (18.02.25)
+
+СКРИНШОТЫ ПРОЕКТА: 
+![1](https://github.com/Mars1kg/Random_Generator_PassWord/blob/master/Снимок%20экрана%20(134).png)
+![2](https://github.com/Mars1kg/Random_Generator_PassWord/blob/master/Снимок%20экрана%20(135).png)
+![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)

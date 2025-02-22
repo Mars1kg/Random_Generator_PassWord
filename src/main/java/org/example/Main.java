@@ -77,6 +77,20 @@ public class Main {
             password.append(ch);
             added++;
         }
+        while (added < length) {
+            if (chars.isEmpty()) {
+                break;
+            }
+            int index = rand.nextInt(chars.length());
+            char randomChar = chars.charAt(index);
+            password.append(randomChar);
+
+            added++;
+        }
+
+        System.out.print("Your password is: ");
+        System.out.println(password.toString());
+
 
     }
 
